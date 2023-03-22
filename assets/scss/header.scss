@@ -1,0 +1,30 @@
+@use "mixin" as m;
+
+.header {
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    background-color: #fff;
+    z-index: 10;
+    @include m.mq(sp){
+        position: static;
+    }
+
+}
+
+.header-inner {
+    height:72px;
+    align-items: center;
+    border-bottom: 1px solid;
+
+    @include m.mq(sp){
+        display: none;
+    }
+}
+
+.header-title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}

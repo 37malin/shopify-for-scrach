@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
+      }
+    },
+    "fist-of-collections": {
+      "type": "list-of-collections",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero",
+    "fist-of-collections"
+  ]
+}
